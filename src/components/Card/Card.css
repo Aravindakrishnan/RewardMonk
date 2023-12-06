@@ -1,0 +1,38 @@
+.card {
+    padding: 2rem;
+    color: var(--headline);
+    background: var(--content-bg);
+    width: 150px;
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 1rem;
+    border-radius: 0.3rem;
+    position: relative;
+    box-shadow: inset 30px 30px 60px #191b1d,
+            inset -30px -30px 60px #2f3135;
+}
+
+.card__top {
+    position: absolute;
+    top: -0.5rem;
+    right: -0.5rem;
+    background: var(--button);
+    padding: 0.3rem;
+    border-radius: 0.5rem;
+}
+
+/* .card__footer {
+    padding: 1.2rem;
+    background: var(--button);
+    color: var(--button-txt);
+    width: 100%;
+    text-align: center;
+    border-radius: 0.3rem;
+} */
+
+.card__icon {
+    font-size: 4rem;
+}

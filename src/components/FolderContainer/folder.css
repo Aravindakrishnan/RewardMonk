@@ -1,0 +1,17 @@
+.folder-container {
+    display: flex;
+    /* flex-direction: column; */
+}
+.folder{
+    display: flex;
+    justify-content: center;    
+    align-items: center;
+    flex-direction: column;
+    color: var(--headline);
+    margin-left: 1.2rem;
+}
+
+.group__info {
+    padding: 1.2rem;
+    color: var(--headline);
+}

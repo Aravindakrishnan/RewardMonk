@@ -1,0 +1,36 @@
+.navbar {
+    padding: 1.2rem;
+    background: var(--content-bg);
+    color: var(--headline);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.navbar__title {
+  font-family: 'Gilroy-Bold', sans-serif;
+}
+
+.navbar__xp {
+    border: 1px solid #fefefe;
+    padding: 1rem;
+    border-radius: 0.2rem;
+    font-family: 'Gilroy-Heavy', sans-serif;
+    margin-left: 1.5rem;
+}
+
+.navbar__user {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.navbar__icon {
+    width: 45px;
+}
+
+.icon {
+    width: 100%;
+    margin: auto;
+}
+

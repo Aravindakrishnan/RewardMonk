@@ -1,0 +1,45 @@
+.auth-container {
+      font-family: 'Gilroy-Regular', sans-serif;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      height: 60vh;
+}
+
+.auth__btn {
+    padding: 1.2rem 2rem;
+    outline: none;
+    border: none;
+    border-radius: 0.2rem;
+    font-size: 1rem;
+    margin: 1rem 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: var(--button);
+    color: var(--button-txt);
+    /* border-bottom: 0.4rem solid var(--background); */
+    /* border-right: 0.3rem solid var(--background); */
+    transition: 0.1s;
+    font-family: 'Gilroy-Regular', sans-serif;
+}
+
+.auth__btn:active {
+    transform: scale(0.98);
+}
+
+.auth__desc {
+    color: var(--headline);
+    text-align: center;
+}
+
+ion-icon {
+    margin-left: 0.4rem;
+}
+
+@media screen and (max-width: 600px) {
+    .auth__desc {
+        width: 250px;
+    }
+}

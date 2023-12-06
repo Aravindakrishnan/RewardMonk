@@ -1,0 +1,53 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,200;0,400;0,700;0,800;1,700&display=swap'); */
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: 'Gilroy-Regular';
+  src: url('./assets/fonts/Gilroy-Regular.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+
+@font-face {
+  font-family: 'Gilroy-Bold';
+  src: url('./assets/fonts/Gilroy-Bold.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: 'Gilroy-Heavy';
+  src: url('./assets/fonts/Gilroy-Heavy.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+:root {
+  --background : #16161a;
+  --headline : #fffffe;
+  --paragraph : #94a1b2;
+  --button : #6633ff;
+  --button-txt : #fffffe;
+  --stroke : #010101;
+  --success: #2cb67d;
+  --secondary : #72757e;
+  --content-bg: #242629;
+}
+
+ion-icon {
+  display: block;
+
+}
+
+body {
+  font-family: 'Gilroy-Regular', sans-serif;
+  /* font-family: 'Gilroy-Heavy', sans-serif; */
+  background: var(--background);
+}
+
