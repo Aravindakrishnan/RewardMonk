@@ -19,8 +19,6 @@
     align-items: center;
     background: var(--button);
     color: var(--button-txt);
-    /* border-bottom: 0.4rem solid var(--background); */
-    /* border-right: 0.3rem solid var(--background); */
     transition: 0.1s;
     font-family: 'Gilroy-Regular', sans-serif;
     cursor: pointer;

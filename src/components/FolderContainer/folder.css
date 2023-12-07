@@ -1,6 +1,5 @@
 .folder-container {
     display: flex;
-    /* flex-direction: column; */
 }
 .folder{
     display: flex;
