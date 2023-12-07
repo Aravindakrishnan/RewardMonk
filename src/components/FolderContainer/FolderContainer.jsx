@@ -1,10 +1,17 @@
+import { useContext } from "react";
 import MacFolder from "./../../assets/icons/mac-folder.png";
 import "./folder.css";
+import { SessionContext } from "../../App";
+
 
 export function FolderContainer() {
+
+    const session = useContext(SessionContext);
+
     return(
         <div className="group">
         <h2 className="group__info">Your Groups</h2>
+        {JSON.stringify(session)}
         <div className="folder-container">
             <Folder folderName={"docker-study-group"}></Folder>
             <Folder folderName={"variable-group"}></Folder>

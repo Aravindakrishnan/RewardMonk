@@ -1,4 +1,5 @@
 .status-card {
     color: var(--headline);
     padding: 1.2rem;
+    font-family: 'Gilroy-Regular', sans-serif;
 }

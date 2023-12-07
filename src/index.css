@@ -29,15 +29,16 @@
 }
 
 :root {
-  --background : #16161a;
+  --background : #131313;
   --headline : #fffffe;
   --paragraph : #94a1b2;
   --button : #6633ff;
   --button-txt : #fffffe;
   --stroke : #010101;
   --success: #2cb67d;
+  --danger : #fb4b4b;
   --secondary : #72757e;
-  --content-bg: #242629;
+  --content-bg: #222222;
 }
 
 ion-icon {

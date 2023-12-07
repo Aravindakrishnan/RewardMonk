@@ -1,8 +1,15 @@
+import { useContext } from "react";
+import { getGreeting } from "../../services/greetings";
 import "./StatusCard.css";
-export default function StatusCard({username}) {
+import { SessionContext } from "../../App";
+export default function StatusCard() {
+
+    const session = useContext(SessionContext);
+    const username = session?.user?.user_metadata?.full_name;
+
     return(
         <div className="status-card">
-            <h2>Good Morning {username}! 🌅</h2>
+            <h2>{getGreeting()} {username}! 🌅</h2>
         </div>
     )
 }

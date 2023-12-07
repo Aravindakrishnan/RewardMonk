@@ -1,9 +1,11 @@
+.card-container {
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+}
 .card {
     padding: 2rem;
     color: var(--headline);
     background: var(--content-bg);
-    width: 150px;
-    height: 150px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -35,4 +37,15 @@
 
 .card__icon {
     font-size: 4rem;
+}
+
+@media screen and (max-width:600px) {
+    .card-container {
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+}
+
+.grayscale {
+    filter: grayscale(1);
 }
